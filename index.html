@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>the first page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        
+        #container{
+            background-color:#202124;
+           height: 700px;
+            width: 990px;
+            display:flex;
+            flex-wrap: wrap;
+             column-gap: 62px;
+             justify-content: center;
+             align-items: center;
+        }
+        .item{
+            height:225px;
+            width: 340px;
+            background-color: grey;
+            border-radius: 10px;
+        }
+        .one,.two{
+            margin-top:27px;
+        }
+        .one,.three{
+            margin-left: 35px;
+        }
+        
+      img{
+         border-radius: 50%;
+          position: relative;
+          top:15%;
+          left:33%;
+          height: 100px;
+          width: 100px;
+      }
+      i{
+          margin-left: 300px;
+          margin-top: 10px;
+          color:white;
+      }
+      .text{
+          padding-top: 40px;
+          padding-left: 20px;
+          color:white;
+      }
+      #icons{
+        padding-right:0%;
+    
+    
+      }
+      .first{
+        border-radius: 10px;
+        color:white;
+        background-color:gray;
+        font-size: large;
+        border-color:gray;
+        border:none;
+      }
+      
+      .single{
+        background-color:red;
+          
+      }
+      .additional{
+          word-spacing: 5px;
+      }
+      .four{
+          border:2px solid blue;
+      }
+                  
+ </style>
+    
+</head>
+   
+<body>
+    <div id="container">
+        <div class="item one"><i class="fa fa-microphone-slash" aria-hidden="true"></i>
+            <img src="./image/photo2.jpg" />
+         <p class="text">saranya</p>                       
+        </div>
+        <div class="item two"><i class="fa fa-microphone-slash" aria-hidden="true"></i>
+            <img src="./image/flower.jpg" />
+            <p class="text">susmitha</p> 
+        </div>
+        
+        <div class="item three"><i class="fa fa-microphone-slash" aria-hidden="true"></i>
+            <img src="./image/imm.jpg" />
+            <p class="text">vignesh</p> 
+        </div>
+        <div class="item four"><i class="fa fa-microphone-slash" aria-hidden="true"></i>
+            <img src="./image/img.jpg" />
+            <p class="text">prisa </p> 
+        </div>
+        
+        <div id="icons">
+            
+       <button class="first single"><span class="fa fa-microphone-slash" aria-hidden="true"></span>
+        </button>
+        <button class="first"><span class="fa fa-video-camera" aria-hidden="true"></span></button>
+        <button class="first"> <span class="fa fa-cc" aria-hidden="true"></span></button>
+            <button class="first"> <span class="fa fa-desktop" aria-hidden="true"></span></button>
+                <button class="first"> <span class="fa fa-ellipsis-v" aria-hidden="true"></span></button>
+                    <button class="first single"> <span class="fa fa-phone" aria-hidden="true"></span></button>
+        </div>
+       
+        </div>
+        <button class="first additional">
+            <span class="fa fa-info-circle" aria-hidden="true"></span>
+            </button>
+            <button class="first additional ">
+         <span class="fa fa-user-plus" aria-hidden="true"></span>
+         </button>
+        
+</body>
+
+</html>
